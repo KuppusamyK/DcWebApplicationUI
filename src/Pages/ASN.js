@@ -17,7 +17,7 @@ function ASN() {
   //   };
   const headers = {
     "Content-Type": "multipart/form-data",
-    Auth: SecretString,
+    Auth: "$2a$08$1kAIcN0mWO66T5Q.z.XhXOeDEmssaDnYOO3BXVUDMG12wTsJc1aj.",
     "Access_Control-Allow-Origin": "http://localhost:5000/",
   };
   console.log("Auth " + headers.Auth);
